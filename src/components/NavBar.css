@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-eunoia {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 40px; 
+    background-color: #ffffff; /* Fondo*/
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); 
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+
+.logo-container .logo {
+    height: 60px; 
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 35px; 
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333333; 
+    font-weight: 500; 
+    font-size: 14px;
+    letter-spacing: 1px; 
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {/*efectos cuando posiciono el mouse*/
+    color: #000000; 
+    font-weight: 700; 
+}
+
+.cart-widget {
+    font-size: 22px; 
+    color: #333333;
+    cursor: pointer;
+    font-weight: 600;
+}
